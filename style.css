@@ -1,0 +1,97 @@
+body {
+    background-image: url("dcf57802a7e656eae418bdc2d8a809ed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.95);
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.form-control .option{
+    display: block;
+    margin-block: 8px;
+}
+
+.form-control .option input {
+    width: auto;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus{
+    outline: none;
+    border-color: rgb(172, 62, 62);
+    box-shadow: 0 0 5px rgba(249, 100, 100, 0.3);
+}
+
+.form-control input[type="checkbox"],
+.form-control input[type="radio"]{
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 21px;
+    font-family: inherit;
+    border: 1px solid #777;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    background-color: #05c46b;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #049e56;
+}
+
+
+
+
+

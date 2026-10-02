@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Preference Survey</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <form id="form">
+
+            <h1>Food Preference Survey</h1>
+            <p class="description">Tell us a little about your favorite food.</p>
+
+            <div class="form-control">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-control">
+                <label for="favorite-food">What is your favorite food?</label>
+                <input type="text" name="favorite-food id" id="favorite-food" placeholder="Enter your favorite food">
+            </div>
+            <div class="form-control">
+                <label for="drink">What is your favorite drink?</label>
+                <input type="text" name="drink" id="drink" placeholder="Enter your favorite drink">
+            </div>
+            <div class="form-control">
+                <label>Preferred meal:</label>
+
+                <label class="option">
+                    <input type="checkbox" name="meal" value="breakfast">Breakfast
+                </label>
+                <label class="option">
+                    <input type="checkbox" name="meal" value="lunch">Lunch
+                </label>
+                <label class="option">
+                    <input type="checkbox" name="meal" value="dinner">Dinner
+                </label>
+                <label class="option">
+                    <input type="checkbox" name="meal" value="snacks">Snacks
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label>How often do you eat your favorite food?</label>
+
+                <label class="option">
+                    <input type="radio" name="frequency" value="daily">Daily
+                </label>
+                <label class="option">
+                    <input type="radio" name="frequency" value="weekly">Weekly
+                </label>
+                <label class="option">
+                    <input type="radio" name="frequency" value="sometimes">Sometimes
+                </label>
+                <label class="option">
+                    <input type="radio" name="frequency" value="rarely">Rarely
+                </label>
+
+            </div>
+
+            <div class="form-control">
+                <label for="">Why do you like it?</label>
+                <textarea name="comment" id="comment"></textarea>
+            </div>
+
+            <div>
+                <button class="submit">Submit</button>
+            </div>
+
+            
+        </form>
+    </body>
+</html>
